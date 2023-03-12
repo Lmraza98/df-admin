@@ -2,7 +2,7 @@
   "name": "df-admin",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "DakotahFerrari.com admin panel",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -12,7 +12,7 @@
   "dependencies": {
     "@offset-dev/strapi-calendar": "^0.0.10",
     "@strapi/plugin-documentation": "^4.6.1",
-    "@strapi/plugin-graphql": "^4.6.1",
+    "@strapi/plugin-graphql": "4.6.1",
     "@strapi/plugin-i18n": "4.6.1",
     "@strapi/plugin-users-permissions": "4.6.1",
     "@strapi/provider-email-sendgrid": "^4.6.1",
@@ -23,7 +23,7 @@
     "pg-connection-string": "^2.5.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Lucas Raza"
   },
   "strapi": {
     "uuid": "99f0e966-f0a3-414e-9c9a-04eaef2c6db1"
