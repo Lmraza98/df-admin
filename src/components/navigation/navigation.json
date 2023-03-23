@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_navigation_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "rooms": {
+      "type": "string"
+    },
+    "booking": {
+      "type": "string"
+    },
+    "mixing": {
+      "type": "string"
+    },
+    "mastering": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
